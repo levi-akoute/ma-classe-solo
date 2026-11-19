@@ -17,7 +17,7 @@ def moyenne_ponderee(notes):
 def lire_notes(chemin):
     """Lit un fichier CSV (matiere,note,coefficient) et retourne la liste des tuples."""
     with open(chemin, newline="", encoding="utf-8") as fichier:
-        lecteur = csv.DictReader(fichier)
+        lecteur = csv.DictReader(fichier)7 
         return [(float(l["note"]), float(l["coefficient"])) for l in lecteur]
 
 
