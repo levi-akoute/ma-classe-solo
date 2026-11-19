@@ -20,3 +20,4 @@ Il calcule la moyenne pondérée d'un élève à partir d'un fichier de notes.
 
     python3 -m unittest       (Ubuntu / WSL / Linux)
     python -m unittest        (Windows PowerShell)
+Auteur : Levi
